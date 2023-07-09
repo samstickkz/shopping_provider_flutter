@@ -87,7 +87,7 @@ class _HomeMainState extends State<HomeMain> with TickerProviderStateMixin {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("latest post",
+                            Text("Latest post",
                                 style: appstyle(
                                     24, Colors.black, FontWeight.w500)),
                             Row(
@@ -114,13 +114,24 @@ class _HomeMainState extends State<HomeMain> with TickerProviderStateMixin {
                             return Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Container(
+
                                 decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black38,
+                                      spreadRadius: 1,
+                                      blurRadius: 0.8,
+                                      offset: Offset(0, 1)
+                                    )
+                                  ],
                                   borderRadius: BorderRadius.circular(10),
-                                  color: Colors.red,
+
                                 ),
                                 height:
                                     MediaQuery.of(context).size.height * 0.12,
                                 width: MediaQuery.of(context).size.width * 0.28,
+                                child: Image.network("https://images.unsplash.com/photo-1491013516836-7db643ee125a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1450&q=80")
 
                               ),
                             );
