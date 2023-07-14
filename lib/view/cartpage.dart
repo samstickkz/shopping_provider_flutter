@@ -16,7 +16,7 @@ class _cartPageState extends State<cartPage> {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Center(
-        child: Text('Cart Page',
+        child: Text('Cart Psasasage',
             style: appstyle(20, Colors.black, FontWeight.w500)),
       ),
     );

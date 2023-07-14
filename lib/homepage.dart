@@ -1,7 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:online_shopping_app/controllers/mainscreen_provider.dart';
-
 import 'package:online_shopping_app/view/cartpage.dart';
 import 'package:online_shopping_app/view/home.dart';
 import 'package:online_shopping_app/view/mainscreen.dart';
